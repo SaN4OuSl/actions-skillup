@@ -18,6 +18,7 @@ jobs:
 
       - name: Install Java and Gradle
         run: |
+          source "$HOME/.sdkman/bin/sdkman-init.sh"
           sdk install java 11.0.16-zulu
           sdk install gradle 7.4
 
