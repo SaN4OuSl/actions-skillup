@@ -2,7 +2,7 @@ name: Java Build
 
 on:
   push:
-    branches: [ main, task-3 ]
+    branches: [ main, task-4 ]
 
 jobs:
   build:
