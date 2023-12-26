@@ -16,7 +16,6 @@ spotless {
             include '**/*.java'
             exclude 'build/generated/**/*.*', 'build/generated-examples/**/*.*'
         }
-        googleJavaFormat()
     }
 }
 
